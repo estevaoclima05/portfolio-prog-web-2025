@@ -25,32 +25,28 @@ export default function ExperienciaPage() {
         <section className="content-section timeline-item">
           <div className="timeline-marker">💻</div>
           <h2>Projetos Extracurriculares</h2>
-          <p className="timeline-date">2025 - Presente</p>
+          <p className="timeline-date">2023 - 2023</p>
           <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Participação ativa em
-            projetos de código aberto e desenvolvimento de aplicações pessoais.
+            Fui bolsista de extensão durante o curso de Análise e
+            Desenvolvimento de Sistemas no Instituto Federal de Pernambuco
+            (IFPE), participando do projeto “Social Media: Introdução, Análise e
+            Utilização de Forma Estratégica”. Nesse projeto, realizei análises
+            métricas de dados de empresas locais do município de Paulista - PE,
+            utilizando a plataforma BuzzMonitor, em parceria com a FACEPE e o
+            IFPE. A iniciativa teve como foco o uso estratégico de mídias
+            sociais e a aplicação prática de ferramentas de análise de dados e
+            marketing digital.
           </p>
-          <p>
-            Áreas de foco: Inteligência Artificial, Programação de Sistemas,
-            Algoritmos e Estruturas de Dados.
-          </p>
+          <p>Áreas de foco: Análise de Dados, Marketing Digital.</p>
         </section>
 
         <section className="content-section timeline-item">
           <div className="timeline-marker">📚</div>
           <h2>Cursos e Certificações</h2>
-          <p className="timeline-date">2023 - 2025</p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Diversos cursos online e
-            presenciais focados em aprofundamento técnico.
-          </p>
+          <p className="timeline-date">2022 - 2025</p>
           <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li>ReactJS - Rocketseat </li>
+            <li>Introdução à análise de mídias sociais com a Buzzmonitor</li>
           </ul>
         </section>
 

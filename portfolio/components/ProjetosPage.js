@@ -1,45 +1,17 @@
 export default function ProjetosPage() {
   const projetos = [
     {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
+      titulo: "Relatório Matinal de Vendas | Heineken Brasil",
+      linguagem: "Python",
       descricao:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sistema de machine learning para classificação de imagens utilizando redes neurais convolucionais. Implementado com TensorFlow e PyTorch.",
+        "Desenvolvimento de um relatório automatizado de vendas no Power BI, com integração em Python e uso de arquivos Parquet para otimização de performance e redução do tamanho dos arquivos. O painel é atualizado diariamente e utilizado pelo time de vendas da Heineken, proporcionando maior eficiência, escalabilidade e visual moderno às análises operacionais.",
       link: "#",
     },
     {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
+      titulo: "Relatório Executivo para Diretoria | Heineken Brasil",
+      linguagem: "Power BI",
       descricao:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Editor de texto minimalista desenvolvido em C puro, com suporte a sintaxe highlighting e múltiplos buffers.",
-      link: "#",
-    },
-    {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
-      descricao:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Compilador para linguagem de programação customizada, desenvolvido em Zig com foco em performance.",
-      link: "#",
-    },
-    {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
-      descricao:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse. Sistema de web scraping com processamento paralelo e armazenamento em banco de dados.",
-      link: "#",
-    },
-    {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
-      descricao:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa. Engine de jogos 2D desenvolvida do zero em C++ com OpenGL para renderização gráfica.",
-      link: "#",
-    },
-    {
-      titulo: "Lorem ipsum dolor sit amet",
-      linguagem: "Lorem",
-      descricao:
-        "Quis nostrum exercitationem ullam corporis suscipit laboriosam. Aplicação web interativa para visualização de diferentes algoritmos de ordenação em tempo real.",
+        "Criação de um dashboard estratégico no Power BI, voltado à diretoria da Heineken, com visões consolidadas de desempenho e indicadores de negócio. O projeto envolveu tratamento e integração de múltiplas fontes de dados, com foco em clareza visual, performance e proteção das informações corporativas.",
       link: "#",
     },
   ];
@@ -54,8 +26,8 @@ export default function ProjetosPage() {
         <section className="content-section">
           <p>
             Aqui estão alguns dos projetos que desenvolvi ao longo da minha
-            jornada no mundo da programação. Cada projeto representa um desafio
-            único e uma oportunidade de aprendizado.
+            jornada profissional. Cada projeto representa um desafio único e uma
+            oportunidade de aprendizado.
           </p>
         </section>
 
@@ -68,7 +40,7 @@ export default function ProjetosPage() {
               </div>
               <p className="project-description">{projeto.descricao}</p>
               <a href={projeto.link} className="project-link">
-                Ver projeto →
+                Confidencial
               </a>
             </div>
           ))}

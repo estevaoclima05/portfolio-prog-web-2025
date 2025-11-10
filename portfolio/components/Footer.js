@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -12,16 +14,19 @@ export default function Footer() {
           <h3>Links Rápidos</h3>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="/sobre">Sobre</a>
+              <Link href="/sobre">Sobre</Link>
             </li>
             <li>
-              <a href="/projetos">Projetos</a>
+              <Link href="/projetos">Projetos</Link>
             </li>
             <li>
-              <a href="/experiencia">Experiência</a>
+              <a href="/academica">Experiência Acadêmica</a>
+            </li>
+            <li>
+              <Link href="/profissional">Experiência Profissional</Link>
             </li>
           </ul>
         </div>
@@ -39,7 +44,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2025 Portfolio. Desenvolvido com React + Next.js</p>
+        <p>&copy; 2025 Estevão Lima. Desenvolvido com React + Next.js</p>
       </div>
     </footer>
   );

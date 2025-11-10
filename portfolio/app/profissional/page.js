@@ -1,13 +1,13 @@
 import Header from "../../components/Header";
-import ExperienciaPage from "../../components/ExperienciaPage";
+import ProfissionalPage from "../../components/ProfissionalPage";
 import Footer from "../../components/Footer";
 
-export default function Experiencia() {
+export default function Profissional() {
   return (
     <>
       <Header />
       <main className="main-container">
-        <ExperienciaPage />
+        <ProfissionalPage />
       </main>
       <Footer />
     </>

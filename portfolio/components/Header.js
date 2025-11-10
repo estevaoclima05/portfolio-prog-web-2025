@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     <header className="header">
       <nav className="nav">
         <div className="nav-brand">
-          <a href="/">Estevão Lima</a>
+          <Link href="/">Estevão Lima</Link>
         </div>
 
         <button
@@ -22,16 +23,19 @@ export default function Header() {
 
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
           <li>
-            <a href="/">🏠 Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/sobre">💡 Sobre</a>
+            <Link href="/sobre">Sobre</Link>
           </li>
           <li>
-            <a href="/experiencia">🎓 Experiência</a>
+            <Link href="/academica">Experiência Acadêmica</Link>
           </li>
           <li>
-            <a href="/projetos">💻 Projetos</a>
+            <Link href="/profissional">Experiência Profissional</Link>
+          </li>
+          <li>
+            <Link href="/projetos">Projetos</Link>
           </li>
         </ul>
       </nav>
